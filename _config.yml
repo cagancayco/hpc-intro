@@ -39,7 +39,7 @@ local:
   bash_shebang: "#!/usr/bin/env bash"
 
 remote:
-  name: "Stanford Research Computing Sherlock HPC Cluster"
+  name: "Sherlock"
   login: "login.sherlock.stanford.edu"
   portal: "https://ondemand.sherlock.stanford.edu"
   host: "sh03-ln01"
