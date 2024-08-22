@@ -27,7 +27,7 @@ of the desktop or laptop computer where they started:
 <div class="row">
   <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
-      <img src="fig/dna-solid.svg" width="30%" height="30%" alt="...">
+      <img src="/hpc-intro/fig/dna-solid.svg" width="30%" height="30%" alt="...">
       <div class="caption">
         <h3>Genomics</h3>
         <p>A genomics researcher has been using small datasets of sequence data,
@@ -43,7 +43,7 @@ of the desktop or laptop computer where they started:
 
   <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
-      <img src="fig/cubes-solid.svg" width="38%" height="38%" alt="...">
+      <img src="/hpc-intro/fig/cubes-solid.svg" width="38%" height="38%" alt="...">
       <div class="caption">
         <h3>Engineering</h3>
         <p>An engineer is using a fluid dynamics package that has an option to
@@ -59,7 +59,7 @@ of the desktop or laptop computer where they started:
 
   <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
-      <img src="fig/book-open-solid.svg" width="38%" height="38%" alt="...">
+      <img src="/hpc-intro/fig/book-open-solid.svg" width="38%" height="38%" alt="...">
       <div class="caption">
         <h3>Humanities</h3>
         <p>A graduate student is using a named entity recognizer to identify named
