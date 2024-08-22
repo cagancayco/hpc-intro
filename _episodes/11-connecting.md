@@ -64,7 +64,6 @@ Even if your cluster does not require it, the next section will guide you
 through the use of SSH keys and an SSH agent to both strengthen your security
 _and_ make it more convenient to log in to remote systems.
 
-
 ## Log In to the Cluster
 
 Go ahead and open your terminal or graphical SSH client, then log in to the
