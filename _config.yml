@@ -12,9 +12,9 @@
 # below with those in `_config_options.yml` from the
 # library. E.g, to customise for Cirrus at EPCC, running
 # Slurm, we could replace the options below with those from
-# 
+#
 # _includes/snippets_library/EPCC_Cirrus_slurm/_config_options.yml
-# 
+#
 # If your cluster is not represented in the library, please
 # copy an existing folder, rename it, and customize for your
 # installation. Remember to keep the leading slash on the
@@ -32,23 +32,23 @@
 #
 # Compute responsibly.
 
-snippets: "/snippets_library/HPCC_MagicCastle_slurm"
+snippets: "/snippets_library/SRC_Sherlock_slurm"
 
 local:
   prompt: "[you@laptop:~]$"
   bash_shebang: "#!/usr/bin/env bash"
 
 remote:
-  name: "HPC Carpentry's Cloud Cluster"
-  login: "cluster.hpc-carpentry.org"
-  portal: "https://mokey.cluster.hpc-carpentry.org"
-  host: "login1"
-  node: "node1"
+  name: "Stanford Research Computing Sherlock HPC Cluster"
+  login: "login.sherlock.stanford.edu"
+  portal: "https://ondemand.sherlock.stanford.edu"
+  host: "sh03-ln01"
+  node: "smnode1"
   location: "cluster.hpc-carpentry.org"
-  homedir: "/home"
-  user: "yourUsername"
+  homedir: "/home/users"
+  user: "SUNetID"
   module_python3: "Python"
-  prompt: "[yourUsername@login1 ~]$"
+  prompt: "[SUNetID@sh03-ln01 login ~]$"
   bash_shebang: "#!/bin/bash"
 
 sched:
@@ -97,7 +97,7 @@ episode_order:
 # "dc":  Data Carpentry
 # "lc":  Library Carpentry
 # "cp":  Carpentries (e.g., instructor training)
-carpentry: "incubator"
+carpentry: "cp"
 
 # Overall title for pages.
 title: "Introduction to High-Performance Computing"
@@ -106,7 +106,7 @@ title: "Introduction to High-Performance Computing"
 email: "team@carpentries.org"
 
 # Life cycle stage of the lesson ("pre-alpha", "alpha", "beta", "stable")?
-life_cycle: "alpha"
+life_cycle: "stable"
 
 #------------------------------------------------------------
 # Generic settings (should not need to change).
@@ -122,7 +122,7 @@ start_time: 0
 repository: <USERNAME>/<PROJECT>
 
 # Invoke the Carpentries theme rather than copying into our repository.
-remote_theme: carpentries/carpentries-theme
+remote_theme: cagancayco/carpentries-theme
 
 # Sites.
 amy_site: "https://amy.carpentries.org/"
